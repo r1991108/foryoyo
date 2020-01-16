@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=1024, user-scalable=no">
+
+  <title>201906</title>
+
+  <!-- Required stylesheet -->
+  <link rel="stylesheet" media="screen" href="core/deck.core.css">
+
+  <!-- Extension CSS files go here. Remove or add as needed. -->
+  <link rel="stylesheet" media="screen" href="extensions/goto/deck.goto.css">
+  <link rel="stylesheet" media="screen" href="extensions/menu/deck.menu.css">
+  <link rel="stylesheet" media="screen" href="extensions/navigation/deck.navigation.css">
+  <link rel="stylesheet" media="screen" href="extensions/status/deck.status.css">
+  <link rel="stylesheet" media="screen" href="extensions/scale/deck.scale.css">
+
+  <!-- Style theme. More available in /themes/style/ or create your own. -->
+  <link rel="stylesheet" media="screen" href="themes/style/web-2.0.css">
+
+  <!-- Transition theme. More available in /themes/transition/ or create your own. -->
+  <link rel="stylesheet" media="screen" href="themes/transition/horizontal-slide.css">
+
+  <!-- Basic black and white print styles -->
+  <link rel="stylesheet" media="print" href="core/print.css">
+
+  <!-- Required Modernizr file -->
+  <script src="modernizr.custom.js"></script>
+  <style type="text/css">
+    h3{
+      position:fixed;top:20px;left:50%;transform:translate(-100px,0px);width:200px;
+      text-align:center; font-family:Gothic;color: 	 	#7b7b7b; font-weight:lighter
+    }
+    img{
+      height:300px; position:fixed;top:80px;left:50%;transform:translate(-50%,0px);opacity:0.8
+    }
+    p{
+      position:fixed;bottom:40px;left:50%; font-size:80%; transform:translate(-300px,0px);width:600px;height:30px;text-align:center
+    }
+    </style>
+</head>
+<body>
+  <div class="deck-container">
+
+    <!-- Begin slides. Just make elements with a class of slide. -->
+
+    <section class="slide">
+      <h3>6月3日</h3>
+      <div>
+        <img src=../yoyobirthdaydata/IMG_3490.jpg alt=pic>
+      </div>
+      <p>ヒデさんのゲストハウスで晩ご飯を食べた</p>
+    </section>
+    <section class="slide">
+      <h3>6月10日</h3>
+      <div>
+        <img src=../yoyobirthdaydata/IMG_3516.jpg alt=pic>
+      </div>
+      <p>焼卵は金の魚の形になった</p>
+    </section>
+  </section>
+  <section class="slide">
+    <h3>6月14日</h3>
+    <div>
+      <img src=../yoyobirthdaydata/IMG_3492.jpg alt=pic>
+    </div>
+    <p>J3の学期末はドラえもんを見た、ひまわりの約束、感動させられた、今度もいい映画を見よう</p>
+  </section>
+  <section class="slide">
+    <h3>6月18日</h3>
+    <div>
+      <img src=../yoyobirthdaydata/IMG_3554.jpg alt=pic>
+    </div>
+    <p>うんこの形をしている髪型だ</p>
+  </section>
+  <section class="slide">
+    <h3>6月19日</h3>
+    <div>
+      <img src=../yoyobirthdaydata/IMG_3573.jpg alt=pic>
+    </div>
+    <p>Georgeさんのお誕生日のお祝いだ、何だっけ！</p>
+  </section>
+  <section class="slide">
+    <h3>6月19日</h3>
+    <div>
+      <img src=../yoyobirthdaydata/582721291.jpg alt=pic>
+    </div>
+    <p>日本の発明家とごはんした後、月曜から夜更かしを見てもその人の名前は出てこないね</p>
+  </section>
+  <section class="slide">
+    <h3>6月22日</h3>
+    <div>
+      <img src=../yoyobirthdaydata/IMG_3612.jpg alt=pic>
+    </div>
+    <p>台湾フェス、台湾ダージーパイはまずいいいい
+    </p>
+  </section>
+  <section class="slide">
+    <h3>6月25日</h3>
+    <div>
+      <img src=../yoyobirthdaydata/IMG_3636.jpg alt=pic>
+    </div>
+    <p>ブラン丼さんと買い物して、上野公園の方向が綺麗そうだったから、あっちに行って少し散歩した
+    </p>
+  </section>
+  <section class="slide">
+    <h3>6月25日</h3>
+    <div>
+      <img src=../yoyobirthdaydata/IMG_3639.jpg alt=pic>
+    </div>
+    <p>ブラン丼さんとジョギングして、ケーキを食べに来てと誘われたのに、まさかからかわれた、、、
+    </p>
+  </section>     
+    <section class="slide">
+      <h1>七月に行こう</h1>
+    </section>
+
+    <!-- End slides. -->
+
+    <!-- Begin extension snippets. Add or remove as needed. -->
+
+    <!-- deck.navigation snippet -->
+    <div aria-role="navigation">
+      <a href="#" class="deck-prev-link" title="Previous">&#8592;</a>
+      <a href="#" class="deck-next-link" title="Next">&#8594;</a>
+    </div>
+
+    <!-- deck.status snippet -->
+    <p class="deck-status" aria-role="status">
+      <span class="deck-status-current"></span>
+      /
+      <span class="deck-status-total"></span>
+    </p>
+
+    <!-- deck.goto snippet -->
+    <form action="." method="get" class="goto-form">
+      <label for="goto-slide">Go to slide:</label>
+      <input type="text" name="slidenum" id="goto-slide" list="goto-datalist">
+      <datalist id="goto-datalist"></datalist>
+      <input type="submit" value="Go">
+    </form>
+
+    <!-- End extension snippets. -->
+  </div>
+
+<!-- Required JS files. -->
+<script src="jquery.min.js"></script>
+<script src="core/deck.core.js"></script>
+
+<!-- Extension JS files. Add or remove as needed. -->
+<script src="extensions/menu/deck.menu.js"></script>
+<script src="extensions/goto/deck.goto.js"></script>
+<script src="extensions/status/deck.status.js"></script>
+<script src="extensions/navigation/deck.navigation.js"></script>
+<script src="extensions/scale/deck.scale.js"></script>
+
+<!-- Initialize the deck. You can put this in an external file if desired. -->
+<script>
+  $(function() {
+    $.deck('.slide');
+  });
+</script>
+</body>
+</html>
